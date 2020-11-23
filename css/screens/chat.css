@@ -1,0 +1,114 @@
+#chat-screen{
+    background-color: #abc1d1;
+    height: 1000vh;
+}
+#chat-screen .alt-header{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}
+.alt-header{
+    z-index: 1;
+    background-color: #abc1d1;
+}
+.status-bar{
+    z-index: 2;
+}
+.mein-chat{
+    margin-top: 130px;
+    
+}
+.main-screems-chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.chat_timestamp{
+    color: white;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 1;
+    margin-bottom: 25px;
+}
+.message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+}
+.message-row img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.message_author{
+    display: block;
+    opacity: 0.8;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.messae_buble{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+}
+.message_info{
+    display: flex;
+    align-items: flex-end;
+}
+.message_time{
+    opacity: 0.8;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.Tigerbox{
+    display: flex;
+    justify-content: flex-start;
+}
+.massage-row_own{
+    justify-content: flex-end;
+}
+
+.massage-row_own .messae_buble{
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.massage-row_own .message_info{
+    flex-direction: row-reverse;
+}
+.replay{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.replay_column input{
+    width: 350px;
+    height: 20px;
+    
+}
+.replay input{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+.replay_column button{
+    background-color: var(--yellow);
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+

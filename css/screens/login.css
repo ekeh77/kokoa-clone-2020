@@ -1,0 +1,68 @@
+.welcome-picture{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.giraffepicture-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.welcome-header{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+.welcome-header_title{
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.welcome-header_text{
+    font-weight: 600;
+    width: 60%;
+    opacity: 0.7;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-form input{
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;
+    
+    margin-bottom: 25px;
+    width: 90%;
+    
+    
+}
+#login-form input:not([type="submit"]){
+    border-bottom: none;
+    transition: border-color 0.3s ease-in-out;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+#login-form input:focus::placeholder{
+    color: var(--yellow);
+}
+#login-form input:focus{
+    
+    border-color:var(--yellow);
+}
+#login-form input[type="submit"]{
+    background-color: var(--yellow);
+    cursor: pointer;
+    border-radius: 5px;
+}
+#login-form a{
+    text-decoration: none;
+    color: rgb(113, 46, 11);
+    font-size: 12px;
+}
