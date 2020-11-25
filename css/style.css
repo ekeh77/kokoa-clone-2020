@@ -33,3 +33,13 @@ body{
 .margintop2{
     margin-top:-25px;
 }
+
+.data-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data-img{
+    width: 70%;
+    margin-bottom: 20px;
+}
