@@ -1,0 +1,40 @@
+.main-data{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-chevron-right{
+    font-size: 80px;
+
+}
+.fa-chevron-right:hover{
+    animation: arrow-move 2s ease-in-out infinite;
+}
+.fa-chevron-left{
+    font-size: 80px;
+}
+.fa-chevron-left:hover{
+    animation: arrow-move 2s ease-in-out infinite;
+}
+.main-data_img{
+    height: 600px;
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.stock{
+    background-color:rgb(102, 129, 156);
+}
+.disease{
+    background-color:rgb(52, 130, 207);
+}
+.firefighting{
+    background-color:rgb(233, 146, 32);
+}
+
+.beer{
+    background-color:rgb(105, 60, 17);
+}
